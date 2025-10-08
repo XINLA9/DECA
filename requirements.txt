@@ -9,7 +9,7 @@ opencv-python>=4.1.1
 scikit-image>=0.15     #skimage
 PyYAML==5.1.1
 
-face-alignment
+face-alignment==1.3.5
 yacs==0.1.8
 kornia==0.4.0
 ninja
@@ -19,4 +19,4 @@ fvcore
 
 # pip not longer provide channel to download
 # conda install pytorch==1.6.0 torchvision==0.7.0 -c pytorch
-# pytorch3d
+# pytorch3d==0.7
