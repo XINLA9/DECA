@@ -1,6 +1,8 @@
 #to install all this requirements
 #`pip install -r requirements.txt`
 # pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/ --trusted-host pypi.tuna.tsinghua.edu.cn
+torch==1.6.0   # for compatible with pytorch3d
+torchvision==0.7.0
 numpy>=1.18.5
 scipy>=1.4.1
 chumpy>=0.69
@@ -14,8 +16,6 @@ yacs==0.1.8
 kornia==0.4.0
 ninja
 fvcore
-# torch==1.6.0   # for compatible with pytorch3d
-# torchvision==0.7.0
 
 # pip not longer provide channel to download
 # conda install pytorch==1.6.0 torchvision==0.7.0 -c pytorch
